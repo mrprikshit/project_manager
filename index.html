@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project Maneger || Prikshit</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet/responsive.css">
+</head>
+<body>
+<button class="create_btn">Create Project</button>
+	<!-- add the project data -->
+	<div class="create_div">
+		<form>
+			<label>Project Name</label>
+			<br>
+			<input class="inputbox" type="text" name="name" placeholder="Project Name" autocomplete="off" required>
+			<br>
+			<label>Starting Date</label>
+			<br>
+			<input class="inputbox" type="date" name="sdate" placeholder="Project Name" autocomplete="off" required>
+			<br>
+			<label>Finish Date</label>
+			<br>
+			<input class="inputbox" type="date" name="fdate" placeholder="Project Name" autocomplete="off" required>
+			<br>
+			<label>Project Link</label>
+			<br>
+			<input class="inputbox" type="text" name="plink" placeholder="Project Link" autocomplete="off" required>
+			<br>
+			<input class="addbtn" value="Create" type="submit" name="createbtn">
+		</form>
+	</div>
+	<!-- show the project data -->
+<div class="projects_div">
+	<!-- <div class="project_box">
+		<span class="del_project" onclick="removebox()">&#10006;</span>
+		<h3 class="project_title">Javascript Localstorage Project</h3>
+		<br>
+		<br>
+		<b>Project Start: </b><span class="ending_date">12/12/2025</span>
+		<br>
+		<br>
+		<b>Project End: </b><span class="ending_date">12/12/2025</span>
+		<br>
+		<br>
+		<b>Github: </b><a href="#">https://github.com</a>
+	</div> -->
+</div>
+<script src="script/app.js"></script>
+</body>
+</html>
